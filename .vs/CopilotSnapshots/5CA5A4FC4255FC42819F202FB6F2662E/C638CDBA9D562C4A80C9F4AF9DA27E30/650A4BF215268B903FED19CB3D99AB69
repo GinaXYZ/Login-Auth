@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Login_Auth
 {
@@ -8,24 +8,14 @@ namespace Login_Auth
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
             builder.Services.AddControllersWithViews();
+
             builder.Services.AddDistributedMemoryCache();
-            builder.Services.AddSession();
-
-            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.Cookie.Name = "MyCookieAuth";
-                    options.LoginPath = "/Home/Login";
-                    options.AccessDeniedPath = "/Home/AccessDenied"; 
-                    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-                    options.SlidingExpiration = true;
-                });
-            builder.Services.AddAuthorization();
-
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
@@ -37,9 +27,19 @@ namespace Login_Auth
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
 
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme.AddCookie());
+            {
+                options.Cookie.Name = "MyCookieAuth";
+                options.LoginPath = "/Home/Login";
+                options.LogoutPath = "/Home/Logout";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                options.SlidingExpiration = true;
+            });
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

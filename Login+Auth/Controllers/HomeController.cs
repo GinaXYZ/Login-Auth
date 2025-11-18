@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Login_Auth.Controllers
 {
@@ -8,52 +12,53 @@ namespace Login_Auth.Controllers
         {
             return View();
         }
-
-        [HttpGet]
-        public IActionResult Alle()
-        {
-            string? username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Alle");
-            }
-            return View();
-        }
-
-        public IActionResult Privat()
-        {
-            string? username = HttpContext.Session.GetString("Username");
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Login");
-            }
-            return View();
-        }
-        [HttpGet]
-        public IActionResult Login()
-        {
-            string? username = HttpContext.Session.GetString("Username");
-            if (!string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Login");
-            }
-            return View();
-        }
+        [AllowAnonymous]
         [HttpPost]
-        public IActionResult Login(string username, string password)
+        public async Task<IActionResult> Login(string username, string password)
         {
             if (username == "admin" && password == "password")
             {
-                HttpContext.Session.SetString("Username", username);
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, username),
+                    new Claim(ClaimTypes.Role, "Administrator"),
+                    new Claim("Abteilung", "IT"),
+                    new Claim("Anmeldezeit", DateTime.Now.ToString())
+                };
+
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
 
                 return RedirectToAction("Privat");
+            };
+                ViewBag.ErrorMessage = "Ungültiger Benutzername oder Passwort.";
+            return View("Login");
             }
+            [HttpGet]
+            public IActionResult Alle()
+            {
+                return View();
+            }
+
+        [Authorize]
+        public IActionResult Privat()
+        {
             return View();
         }
-
-        public IActionResult Logout()
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult Login()
+        { 
+            return View();
+        }
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Logout()
         {
-            HttpContext.Session.Remove("Username");
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index");
         }
     }

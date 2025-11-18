@@ -8,11 +8,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Everyone</title>
-	<body>
 		<div class="title">
 			<h1 class="h1">Everyone</h1>
 			<p>Everyone can see this</p>
 		</div>
-	</body>
+		@if (ViewBag.ErrorMessage != null)
+		{
+			<p style="color:red;">@ViewBag.ErrorMessage</p>
+		}
 	</head>
 	</html>

@@ -1,15 +1,27 @@
-﻿
-@{
-	Layout = "_Layout";
+﻿@{
+    Layout = "_Layout";
 }
 
-
 <div class="title">
-    <h1 class="h1">Login Page</h1>
-    <form method="post" action="/Home/Login">
-        <div class="input-group">
-            <button type="submit">Login</button>
-        </div>
-    </form>
+    <h1 class="h1">Willkommen</h1>
+    <p>Klicken Sie auf Login, um sich anzumelden.</p>
+    <a href="/Home/Login">
+        <button type="button">Zum Login</button>
+    </a>
 </div>
+
+<style>
+    button {
+        background-color: #2196F3;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+</style>
 

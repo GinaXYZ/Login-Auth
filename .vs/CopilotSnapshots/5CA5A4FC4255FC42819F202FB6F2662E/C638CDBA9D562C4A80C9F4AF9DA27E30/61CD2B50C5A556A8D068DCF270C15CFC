@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Login_Auth
 {
@@ -15,12 +15,14 @@ namespace Login_Auth
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession();
 
+            // Cookie Auth konfigurieren
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
                 {
                     options.Cookie.Name = "MyCookieAuth";
                     options.LoginPath = "/Home/Login";
-                    options.AccessDeniedPath = "/Home/AccessDenied"; 
+                    options.LogoutPath = "/Home/Logout";
+                    options.AccessDeniedPath = "/Account/AccessDenied"; // Anpassen falls anderer Controller
                     options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
                     options.SlidingExpiration = true;
                 });
@@ -37,6 +39,7 @@ namespace Login_Auth
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
 

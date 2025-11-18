@@ -24,6 +24,10 @@
 				</div>
 		<button type="submit">Login</button>
 		</form>
+		@if (ViewBag.ErrorMessage != null)
+		{
+			<p style="color:red;">@ViewBag.ErrorMessage</p>
+		}
 		</body>
 		</head>
 		<style>	

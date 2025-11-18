@@ -37,3 +37,4 @@ C:\Users\FIA\source\repos\Login+Auth\Login+Auth\obj\Debug\net8.0\Login+Auth.genr
 C:\Users\FIA\source\repos\Login+Auth\Login+Auth\obj\Debug\net8.0\ref\Login+Auth.dll
 C:\Users\FIA\source\repos\Login+Auth\Login+Auth\obj\Debug\net8.0\Login+Auth.RazorAssemblyInfo.cache
 C:\Users\FIA\source\repos\Login+Auth\Login+Auth\obj\Debug\net8.0\Login+Auth.RazorAssemblyInfo.cs
+C:\Users\FIA\source\repos\Login+Auth\Login+Auth\obj\Debug\net8.0\Login+Auth.sourcelink.json
