@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\alle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\home\\alle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Privat.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Home\\Privat.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Home\\Privat.cshtml",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Login\u002BAuth\\Views\\Home\\Privat.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T08:24:03.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:24:03.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Alle.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Home\\Alle.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Home\\Alle.cshtml",
@@ -75,12 +74,11 @@
               "RelativeToolTip": "Login\u002BAuth\\Views\\Home\\Alle.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T08:19:22.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:19:22.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Home\\Login.cshtml",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Login\u002BAuth\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T08:00:52.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:00:52.538Z"
             },
             {
               "$type": "Document",
@@ -112,7 +109,7 @@
               "RelativeDocumentMoniker": "Login\u002BAuth\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Login\u002BAuth\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:59:28.012Z",
               "EditorCaption": ""
@@ -127,12 +124,11 @@
               "RelativeToolTip": "Login\u002BAuth\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwCYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:03:23.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:03:23.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
@@ -140,8 +136,7 @@
               "RelativeToolTip": "Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAADwvzUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T07:59:01.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T07:59:01.245Z"
             },
             {
               "$type": "Document",

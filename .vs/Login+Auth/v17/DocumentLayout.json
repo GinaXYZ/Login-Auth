@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|solutionrelative:login\u002Bauth\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC7AA716-FED3-4384-BBF4-0581E79B82BE}|Login\u002BAuth\\Login\u002BAuth.csproj|c:\\users\\fia\\source\\repos\\login\u002Bauth\\login\u002Bauth\\views\\home\\privat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,16 +78,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Home\\Login.cshtml",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "Login\u002BAuth\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T08:10:56.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:10:56.266Z"
             },
             {
               "$type": "Document",
@@ -103,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Login\u002BAuth\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T07:59:28.012Z",
               "EditorCaption": ""
@@ -128,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\FIA\\source\\repos\\Login\u002BAuth\\Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Login\u002BAuth\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvzUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-17T07:59:01.245Z",
               "EditorCaption": ""
